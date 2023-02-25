@@ -21,11 +21,7 @@ const CodeForInterview = () => {
 
     return (
         <Header>
-            <Typography variant="h4">Code for Interview</Typography>
-            <Box style={{display: 'flex'}}>
-                <Image src={Youtube} />
-                <Image src={InstaTele} />
-            </Box>
+            <Typography variant="h4" style={{textAlign: 'center',marginTop:'20%'}}>Welcome!</Typography>
         </Header>
     )
 }

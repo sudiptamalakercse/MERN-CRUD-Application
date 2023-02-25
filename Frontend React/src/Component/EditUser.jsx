@@ -64,7 +64,7 @@ const EditUser = () => {
                 <Input onChange={(e) => onValueChange(e)} name='phone' value={phone} id="my-input" aria-describedby="my-helper-text" />
             </FormControl>
             <FormControl>
-                <Button variant="contained" color="primary" onClick={() => editUserDetails()}>Edit User</Button>
+                <Button variant="contained" color="primary" onClick={() => editUserDetails()}>Update User</Button>
             </FormControl>
         </Container>
     )
